@@ -43,7 +43,7 @@ public class RestControllerDemo {
     @PutMapping("/puttest")
     public String puTesting(){
         System.out.println("putMethod called");
-        return "putmethod";
+        return "put-method";
     }
     // Responses will be made in the form           : HttpResponse
 }
